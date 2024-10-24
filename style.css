@@ -1,0 +1,175 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+  }
+  
+  #main-container {
+    display: flex;
+    justify-content: center;
+    background: rgb(214, 197, 214);
+    padding: 5px;
+  }
+
+  
+   
+  .heading{
+    width: 105%;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: cursive;
+    color: #191111;
+  }
+  .photo{
+    border-radius: 50%;
+   margin-left: 30%;
+   height: 170px;
+   width: 40%;
+   border: 5px solid black;
+  }
+
+  .label{
+    font: bold;
+  }
+  hr{ 
+    border-color: black;
+}
+  #resume-container{
+    background: #4A4947;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 20px;
+    margin-top: 3%;
+    color: white;
+  }
+  
+  .information {
+    width: 30%;
+    background: #F3C623;
+    padding: 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+  
+
+  
+  .input {
+    width: 90%;
+    height: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+
+
+  .textarea{
+    width: 90%;
+    height: 30px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+
+  
+  
+  #toggle-skills:hover {
+    background-color: #3e8e41;
+  }
+  
+
+#submit-button{
+  background: #4A4947;
+  padding: 12px;
+  border-radius: 8px;
+  margin-left: 39%;
+  align-items: center;
+  cursor: pointer;
+  color: white;
+  font-size: larger;
+}
+
+.your-resume{
+  text-align: center;
+}
+
+h2{
+  text-decoration: underline;
+}
+
+.out{
+  text-align: center;
+  font: bold;
+}
+
+h2{
+  text-align: center;
+}
+
+#submit-button:hover{
+  background: #F3C623;
+  color: black;
+}
+
+
+@media only screen and (max-width:400px) {
+  #main-container {
+    flex-direction: column;
+
+  }
+
+  .information {
+    width: 84%;
+    background: #F3C623;
+    
+  }
+
+  .input {
+   
+    border: 1px solid #191111;
+    border-radius: 15px;
+  
+  }
+
+  h2{
+    text-align: center;
+    text-decoration: underline;
+  }
+
+  .your-resume{
+    text-align: center;
+  }
+
+  .out{
+    text-align: center;
+  }
+  .photo{
+    height: 120px;
+    width: 120px;
+    margin-left: 65px;
+  }
+  #resume-form{
+    background: #4A4947;
+    padding: 5%;
+    border-radius: 10px;
+    border: 1px solid black;
+  }
+
+  #resume-container{
+    background-color: #4A4947;
+  }
+  body{
+    color: white;
+  }
+
+  #submit-button{
+    
+    margin-left: 29%;
+    cursor: pointer;
+}
+}
+  

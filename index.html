@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Editable-Resume-Builder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="main-container">
+    <div class="information">
+      <h1 class="heading">Editable RESUME BUILDER</h1>
+      
+      <form id="resume-form">
+        <h2>Personal Information</h2>
+        <label for="picture" class="bbb">Profile picture</label>
+        <input type="file" id="picture" name="picture" accept="image/*"><br>
+        <label class="label">Name:</label>
+        <input class="input" id="name" name="name" type="text" placeholder="Enter your name" required>
+        <label class="label">Email:</label>
+        <input class="input" id="email" name="email" type="email" placeholder="enter your email" required>
+        <label class="label">Phone:</label>
+        <input class="input" id="phone" name="phone" type="number" placeholder="Enter you phone number" required>
+        <label class="label">Address:</label>
+        <input class="input" id="address" name="address" type="text" placeholder="Enter your address" required><hr>
+        
+
+        <h2>Education</h2>
+        <label class="label">Degree:</label>
+        <input class="input" id="degree" name="degree" type="text" placeholder="Enter your Degree">
+        <label class="label">Institute:</label>
+        <input class="input" id="institute" name="institute" type="text" placeholder="Enter your Institute"><hr>
+        <h2>Skills</h2>
+        <div id="skills-section">
+          <input type="text" name="skills" placeholder="Enter your skills" class="textarea" required>
+          <input type="text" name="skills" placeholder="Enter your skills" class="textarea" >
+          <input type="text" name="skills" placeholder="Enter your skills" class="textarea" >
+        </div><hr>
+        <h2>Work Experience</h2>
+        <textarea name="experience" placeholder="Enter your Experience" class="textarea" required></textarea>
+        <button id="submit-button">Generate</button>
+      </form>
+      <div id="resume-container" ></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
